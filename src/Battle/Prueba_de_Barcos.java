@@ -11,7 +11,7 @@ public class Prueba_de_Barcos {
 		
 		barco.setposiciones(posiciones);
 		
-		String Usuario_invitado = "2";
+		String Usuario_invitado = "1";
 		
 		barco.Verifica_usuario(Usuario_invitado);
 		
