@@ -20,12 +20,15 @@ public class Prueba_de_Barcos {
 		int [] posiciones = {2,3,4,5};
 		
 		barco.setposiciones(posiciones);
-		
-		
-		
+
 		//barco.Verifica_usuario(Usuario_invitado);(1)
 		
-		
+		while(barco_esta_vivo){
+			String resultado;
+			System.out.println("ingresa el nombre del usuario");
+			Usuario_invitado = entrada.nextLine();
+			resultado = barco.Verifica_usuario(Usuario_invitado);
+		}
 		
 	}
 
