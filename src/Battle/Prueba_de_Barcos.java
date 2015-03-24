@@ -9,9 +9,11 @@ public class Prueba_de_Barcos {
 		
 		int [] posiciones = {2,3,4,5};
 		
-		String usuarioprueba = "2";
+		barco.setposiciones(posiciones);
 		
+		String Usuario_invitado = "2";
 		
+		barco.Verifica_usuario(Usuario_invitado);
 		
 		
 		
