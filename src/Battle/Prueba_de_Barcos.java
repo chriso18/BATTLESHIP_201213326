@@ -20,7 +20,7 @@ public class Prueba_de_Barcos {
 		
 		boolean barco_esta_vivo=true;
 		
-		int temp = rand.nextInt(5)+1;
+		int temp = rand.nextInt(9)+1;
 		
 		int [] posiciones = {temp,++temp,++temp};
 		//int [] posiciones = {2,3,4};
