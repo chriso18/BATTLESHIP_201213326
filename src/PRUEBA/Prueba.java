@@ -23,15 +23,15 @@ class Ventana extends JFrame{
 
 }
 class Tablero extends JPanel{
-	private JLabel[][] tablero=new JLabel[10][10];
+	private JLabel[][] tablero=new JLabel[8][8];
         private JButton btn1=new JButton("1");
 	private JButton btn2=new JButton("2");
 	private JButton btn3=new JButton("3");
 	private JButton btn4=new JButton("4");		
 	public Tablero()
 	{
-	for(int x=0;x<9;x++){
-            for(int y=0;y<9;y++){
+	for(int x=0;x<8;x++){
+            for(int y=0;y<8;y++){
                 tablero[x][y]=new JLabel("Hola");
                 
                 this.add(tablero[x][y]);
