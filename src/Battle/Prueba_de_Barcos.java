@@ -1,5 +1,6 @@
 package Battle;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Prueba_de_Barcos {
@@ -7,6 +8,8 @@ public class Prueba_de_Barcos {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner entrada = new Scanner(System.in);
+		
+		Random rand = new Random();
 
 		BarcoNormal barco = new BarcoNormal();
 		
@@ -17,7 +20,10 @@ public class Prueba_de_Barcos {
 		
 		boolean barco_esta_vivo=true;
 		
-		int [] posiciones = {2,3,4};
+		int temp = rand.nextInt(5)+1;
+		
+		int [] posiciones = {temp,++temp,++temp};
+		//int [] posiciones = {2,3,4};
 		
 		barco.setposiciones(posiciones);
 
