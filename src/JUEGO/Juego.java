@@ -496,7 +496,6 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
 
-            @Override
             public void run() {
                 new MenuPrincipal().setVisible(true);
                 
@@ -536,7 +535,6 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
     private javax.swing.JLabel statusjuegotxt;
     // End of variables declaration//GEN-END:variables
 
-    @Override
     public void mouseClicked(MouseEvent e) {
         //JLabel casilla=(JLabel)e.getSource();
         //icono=casilla.getIcon();
@@ -546,25 +544,21 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
         
     }
 
-    @Override
     public void mousePressed(MouseEvent e) {
        
         
         
     }
 
-    @Override
     public void mouseReleased(MouseEvent e) {
         
        
     }
 
-    @Override
     public void mouseEntered(MouseEvent e) {
         
     }
 
-    @Override
     public void mouseExited(MouseEvent e) {
         
     }
