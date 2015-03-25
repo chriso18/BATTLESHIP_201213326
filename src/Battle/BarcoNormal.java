@@ -19,7 +19,10 @@ public class BarcoNormal {
     	
     	int indice = posicion.indexOf(Usuario_decision); 
     	
-    	
+    	if(indice >0){
+    		posicion.remove(indice);
+    		resultado = posicion.isEmpty() ? "kill " : "hit";
+    	}
     	
     	
     	
