@@ -4,7 +4,7 @@ import java.awt.Toolkit;
 
 public class Reportes  extends javax.swing.JFrame {
 
-    /** Creates new form Reportes */
+	  /** Creates new form Reportes */
     public Reportes() {
         initComponents();
         Dimension pantalla = Toolkit.getDefaultToolkit().getScreenSize();

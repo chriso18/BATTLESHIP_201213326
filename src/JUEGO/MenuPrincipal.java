@@ -5,7 +5,8 @@ import java.net.URL;
 import javax.swing.BorderFactory;
 
 public class MenuPrincipal extends javax.swing.JFrame  {
-	  /** Creates new form NewJFrame */
+    
+    /** Creates new form NewJFrame */
     public MenuPrincipal() {
         initComponents();
         Dimension pantalla = Toolkit.getDefaultToolkit().getScreenSize();
@@ -218,6 +219,7 @@ public class MenuPrincipal extends javax.swing.JFrame  {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
 
+            @Override
             public void run() {
                 new MenuPrincipal().setVisible(true);
             }

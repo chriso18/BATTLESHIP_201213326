@@ -6,7 +6,7 @@ import java.io.IOException;
 
 
 public class EditPlayer extends javax.swing.JFrame  {
-	 /** Creates new form EditPlayer */
+	  /** Creates new form EditPlayer */
     JugadoresBinario jugador;
     String nombre1;
     String password1;
@@ -148,5 +148,4 @@ public class EditPlayer extends javax.swing.JFrame  {
     private javax.swing.JTextField passwordtxt;
     private javax.swing.JTextField usuariotxt;
     // End of variables declaration//GEN-END:variables
-
 }

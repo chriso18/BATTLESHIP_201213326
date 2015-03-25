@@ -3,7 +3,8 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 
 public class Jugadores  extends javax.swing.JFrame {
-	  /** Creates new form Jugadores */
+
+    /** Creates new form Jugadores */
     public Jugadores() {
         initComponents();
         Dimension pantalla = Toolkit.getDefaultToolkit().getScreenSize();

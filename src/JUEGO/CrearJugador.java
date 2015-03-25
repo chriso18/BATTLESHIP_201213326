@@ -11,7 +11,7 @@ import javax.swing.JTextField;
 
 
 public class CrearJugador  extends javax.swing.JFrame  {
-	 /** Creates new form CrearJugador */
+	  /** Creates new form CrearJugador */
     public CrearJugador() {
         initComponents();
         this.jRadioButton1.setSelected(true);

@@ -5,7 +5,7 @@ import java.awt.Toolkit;
 
 
 public class JLog extends javax.swing.JFrame {
-	  /** Creates new form JLog */
+	   /** Creates new form JLog */
     public JLog() {
         initComponents();
         Dimension pantalla = Toolkit.getDefaultToolkit().getScreenSize();
