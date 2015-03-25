@@ -8,6 +8,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.net.URL;
+
 import javax.swing.BorderFactory;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -104,15 +105,15 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
 	    
 	    //Genera la imagenes de los barcos en el tablero aleatoriamente
 	    public void imagenAleatorio(){
-	        tablero1[xRandom()][yRandom()].setIcon(establecerImagen("/proyectoprogra2/images/portaviones.png"));
-	        tablero1[xRandom()][yRandom()].setIcon(establecerImagen("/proyectoprogra2/images/acorazado.png"));
-	        tablero1[xRandom()][yRandom()].setIcon(establecerImagen("/proyectoprogra2/images/destructor.png"));
-	        tablero1[xRandom()][yRandom()].setIcon(establecerImagen("/proyectoprogra2/images/submarino.png"));
+	        tablero1[xRandom()][yRandom()].setIcon(establecerImagen("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/portaviones.png"));
+	        tablero1[xRandom()][yRandom()].setIcon(establecerImagen("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/acorazado.png"));
+	        tablero1[xRandom()][yRandom()].setIcon(establecerImagen("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/destructor.png"));
+	        tablero1[xRandom()][yRandom()].setIcon(establecerImagen("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/submarino.png"));
 	        
-	        tablero2[xRandom()][yRandom()].setIcon(establecerImagen("/proyectoprogra2/images/portaviones.png"));
-	        tablero2[xRandom()][yRandom()].setIcon(establecerImagen("/proyectoprogra2/images/acorazado.png"));
-	        tablero2[xRandom()][yRandom()].setIcon(establecerImagen("/proyectoprogra2/images/destructor.png"));
-	        tablero2[xRandom()][yRandom()].setIcon(establecerImagen("/proyectoprogra2/images/submarino.png"));
+	        tablero2[xRandom()][yRandom()].setIcon(establecerImagen("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/portaviones.png"));
+	        tablero2[xRandom()][yRandom()].setIcon(establecerImagen("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/acorazado.png"));
+	        tablero2[xRandom()][yRandom()].setIcon(establecerImagen("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/destructor.png"));
+	        tablero2[xRandom()][yRandom()].setIcon(establecerImagen("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/submarino.png"));
 	    }
 	    
 	    //funcion para limpiar el arreglo de los barcos
@@ -252,7 +253,7 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
 	        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Barcos", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Berlin Sans FB", 2, 14), java.awt.Color.black)); // NOI18N
 
 	        imagenDestructor.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-	        imagenDestructor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyectoprogra2/images/destructor.png"))); // NOI18N
+	        imagenDestructor.setIcon(new javax.swing.ImageIcon(getClass().getResource("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/destructor.png"))); // NOI18N
 	        imagenDestructor.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 	        imagenDestructor.addMouseListener(new java.awt.event.MouseAdapter() {
 	            public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -261,7 +262,7 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
 	        });
 
 	        imagenSubmarino.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-	        imagenSubmarino.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyectoprogra2/images/submarino.png"))); // NOI18N
+	        imagenSubmarino.setIcon(new javax.swing.ImageIcon(getClass().getResource("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/submarino.png"))); // NOI18N
 	        imagenSubmarino.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 	        imagenSubmarino.addMouseListener(new java.awt.event.MouseAdapter() {
 	            public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -270,7 +271,7 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
 	        });
 
 	        ImagenAcorazado.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-	        ImagenAcorazado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyectoprogra2/images/acorazado.png"))); // NOI18N
+	        ImagenAcorazado.setIcon(new javax.swing.ImageIcon(getClass().getResource("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/acorazado.png"))); // NOI18N
 	        ImagenAcorazado.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 	        ImagenAcorazado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 	        ImagenAcorazado.setMaximumSize(new java.awt.Dimension(60, 60));
@@ -282,7 +283,7 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
 	        });
 
 	        imagenPortaviones.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-	        imagenPortaviones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyectoprogra2/images/portaviones.png"))); // NOI18N
+	        imagenPortaviones.setIcon(new javax.swing.ImageIcon(getClass().getResource("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/images/portaviones.png"))); // NOI18N
 	        imagenPortaviones.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 	        imagenPortaviones.addMouseListener(new java.awt.event.MouseAdapter() {
 	            public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -496,7 +497,6 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
 	    public static void main(String args[]) {
 	        java.awt.EventQueue.invokeLater(new Runnable() {
 
-	            @Override
 	            public void run() {
 	                new MenuPrincipal().setVisible(true);
 	                
@@ -522,7 +522,8 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
 	    private javax.swing.JLabel jLabel5;
 	    private javax.swing.JPanel jPanel1;
 	    private javax.swing.JPanel jPanel2;
-	    private javax.swing.JPopupMenu jPopupMenu1;
+	    @SuppressWarnings("unused")
+		private javax.swing.JPopupMenu jPopupMenu1;
 	    private javax.swing.JMenu menuArchivo;
 	    private javax.swing.JMenuItem menuCargar;
 	    private javax.swing.JMenuItem menuDificultad;
@@ -536,7 +537,6 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
 	    private javax.swing.JLabel statusjuegotxt;
 	    // End of variables declaration//GEN-END:variables
 
-	    @Override
 	    public void mouseClicked(MouseEvent e) {
 	        //JLabel casilla=(JLabel)e.getSource();
 	        //icono=casilla.getIcon();
@@ -546,25 +546,21 @@ public class Juego extends javax.swing.JFrame implements MouseListener {
 	        
 	    }
 
-	    @Override
 	    public void mousePressed(MouseEvent e) {
 	       
 	        
 	        
 	    }
 
-	    @Override
 	    public void mouseReleased(MouseEvent e) {
 	        
 	       
 	    }
 
-	    @Override
 	    public void mouseEntered(MouseEvent e) {
 	        
 	    }
 
-	    @Override
 	    public void mouseExited(MouseEvent e) {
 	        
 	    }
