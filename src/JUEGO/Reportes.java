@@ -3,7 +3,6 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 
 public class Reportes  extends javax.swing.JFrame {
-
 	  /** Creates new form Reportes */
     public Reportes() {
         initComponents();

@@ -2,8 +2,6 @@ package JUEGO;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 
-
-
 public class JLog extends javax.swing.JFrame {
 	   /** Creates new form JLog */
     public JLog() {
@@ -37,7 +35,7 @@ public class JLog extends javax.swing.JFrame {
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyectoprogra2/Ironman_128.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("C:/Users/christian/Documents/Christian/PROGRAMACION/ProyectoProgra2_Battleship/src/proyectoprogra2/Ironman_128.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
