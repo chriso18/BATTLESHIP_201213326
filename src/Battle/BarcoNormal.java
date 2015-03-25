@@ -10,11 +10,11 @@ public class BarcoNormal {
 		posicion = pos;
 	}
 	
-    public String Verifica_usuario(String Usuario_invitado){
+    public String Verifica_acierto(String Usuario_decision){
     	
     	String resultado= "miss";
     	
-    	int usuario = Integer.parseInt(Usuario_invitado);
+    	int usuario = Integer.parseInt(Usuario_decision);
     	
     	for(int pos : posicion){
     		
